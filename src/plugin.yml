@@ -1,0 +1,21 @@
+main: com.github.Jena.MarkdownMain
+name: MarkdownFormatting
+version: 1.0.0
+author: Jena
+
+permissions:
+  markdown:
+    default: false
+    description: Allows the user to use markdown formatting in their chat messages
+
+  markdown.bold:
+    default: false
+    description: Allows the user to use markdown formatting to bold their text
+
+  markdown.italic:
+    default: false
+    description: Allows the user to use markdown formatting to italic their text
+
+  markdown.underline:
+    default: false
+    description: Allows the user to use markdown formatting to underline their text
